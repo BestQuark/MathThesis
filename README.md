@@ -1,2 +1,2 @@
 # MathThesis
-This repository contains the code used for my undergraduate mathematics thesis in DQN
+This repository contains the code used for my undergraduate mathematics thesis in DQN (in progress)
