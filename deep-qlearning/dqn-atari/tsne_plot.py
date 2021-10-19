@@ -174,9 +174,6 @@ last_layer_embedded_mid = TSNE(n_components=2, perplexity=50).fit_transform(last
 
 last_layer_array_beg = np.stack( data_tsne['last_layer_beg'], axis=0 )
 last_layer_embedded_beg = TSNE(n_components=2, perplexity=50).fit_transform(last_layer_array_beg)
-## 
-last_layer_array = np.stack( data_tsne['last_layers'], axis=0 )
-last_layer_embedded = TSNE(n_components=2, perplexity=50).fit_transform(last_layer_array)
 
 ###Plot tSNE maps 
 matplotlib.style.use('default') 
